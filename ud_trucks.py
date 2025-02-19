@@ -3665,4 +3665,5 @@ def toggle_chatbot_visibility(n_clicks, fo_contents, fu_contents):
     return {"display": "none"}  # Hide chatbot by default
 
 if __name__ == '__main__':
-    app.run_server(debug=True, host='10.180.187.159', port=8050)
+    port = int(os.environ.get("PORT", 10000))  # Render assigns a dynamic port
+    app.run_server(debug=False, host='0.0.0.0', port=port)
