@@ -1,0 +1,3 @@
+cd "C:\Users\U103093\OneDrive - UD TRUCKS\Desktop\udtrucks"
+./venv/scripts/Activate
+python "ud trucks.py"
