@@ -9,3 +9,4 @@ plotly==5.18.0
 regex
 dash-dangerously-set-inner-html
 json5
+openpyxl
